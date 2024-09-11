@@ -81,9 +81,9 @@ Sample run:
 Three digit number: 678
 
 Here are the digits:
-6
-7
 8
+7
+6
 ```
 
 ## Problem3
@@ -101,4 +101,49 @@ Here are the digits:
 7
 6
 5
+```
+
+# Sample Solutions
+## Problem0
+```java
+public class Problem0
+{
+  public static void main(String[] args)
+  {
+    double x = 4; // this works
+    int y = 4.0; // this is an error
+  }
+}
+```
+
+## Problem1
+```java
+public class Problem1
+{
+  public static void main(String[] args)
+  {
+    int val = 24;
+    System.out.println(val);
+    val++;
+    System.out.println("val is now: " + val);
+    val--;
+    System.out.println("val is now: " + val);
+  }
+}
+```
+
+## Problem2
+```java
+public class Problem2
+{
+  public static void main(String[] args)
+  {
+    int val = 867;
+    System.out.println(val % 10);  // prints 7
+    val /= 10;  // val is now 86
+    System.out.println(val % 10);  // prints 6
+    val /= 10;  // val is now 8
+    System.out.println(val % 10);  // prints 8
+  }
+}
 ```
